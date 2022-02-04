@@ -14,6 +14,8 @@
 		673E119F27AD581D005F15DE /* CommentCardWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673E119E27AD581D005F15DE /* CommentCardWriterTests.swift */; };
 		673E11A927AD581D005F15DE /* CommentCardWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673E11A827AD581D005F15DE /* CommentCardWriterUITests.swift */; };
 		673E11AB27AD581D005F15DE /* CommentCardWriterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673E11AA27AD581D005F15DE /* CommentCardWriterUITestsLaunchTests.swift */; };
+		673E11B827AD5857005F15DE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673E11B727AD5857005F15DE /* Student.swift */; };
+		673E11BA27AD5864005F15DE /* CommentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673E11B927AD5864005F15DE /* CommentCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		673E11A427AD581D005F15DE /* CommentCardWriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentCardWriterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		673E11A827AD581D005F15DE /* CommentCardWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITests.swift; sourceTree = "<group>"; };
 		673E11AA27AD581D005F15DE /* CommentCardWriterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		673E11B727AD5857005F15DE /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		673E11B927AD5864005F15DE /* CommentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				673E118F27AD581A005F15DE /* ContentView.swift */,
 				673E119127AD581D005F15DE /* Assets.xcassets */,
 				673E119327AD581D005F15DE /* Preview Content */,
+				673E11B727AD5857005F15DE /* Student.swift */,
+				673E11B927AD5864005F15DE /* CommentCard.swift */,
 			);
 			path = CommentCardWriter;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				673E119027AD581A005F15DE /* ContentView.swift in Sources */,
+				673E11BA27AD5864005F15DE /* CommentCard.swift in Sources */,
+				673E11B827AD5857005F15DE /* Student.swift in Sources */,
 				673E118E27AD581A005F15DE /* CommentCardWriterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
