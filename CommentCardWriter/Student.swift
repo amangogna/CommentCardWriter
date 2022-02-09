@@ -7,16 +7,22 @@
 
 import Foundation
 
-class Student : ObservableObject{
+class Student: ObservableObject{
      
-    @Published  var subject : String
-    @Published  var effort : Int
-    @Published  var enjoyment: Int
-    init(subject : String,effort : Int,enjoyment: Int){
-        self.subject = "maths"
-        self.enjoyment = 0
-        self.effort = 0
+    @Published var subject = "........"
+    @Published var effort = 1
+    @Published var enjoyment = 1
+    var goodEffort = "..."
+    
+    func createCommentCard(){
+        if effort > 3{
+            CommentCard.hardwork
+        }
     }
+    
+    
+    
+    
     
     
     
